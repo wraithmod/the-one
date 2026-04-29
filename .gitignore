@@ -1,0 +1,17 @@
+.venv/
+.codex
+__pycache__/
+.pytest_cache/
+
+# Large install media and disk images
+*.iso
+*.wim
+*.esd
+*.swm
+*.vhd
+*.vhdx
+
+# Local-only output and secrets
+*.log
+secrets/
+local/
